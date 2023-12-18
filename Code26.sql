@@ -1,0 +1,3 @@
+SELECT LEFT(first_name,1) AS initial
+FROM DIRECTORS
+ORDER BY 1;
