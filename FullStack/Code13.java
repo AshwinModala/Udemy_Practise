@@ -1,6 +1,4 @@
-package FullStack;
-
-public class Code6 {
+class Code13 {
     public static void main(String[] args) {
         String password[] = { "XY01", "XY02", "XY03", "XY04" };
 
@@ -12,5 +10,4 @@ public class Code6 {
         }
         System.out.println(result); // output:XY04XY03
     }
-    
 }

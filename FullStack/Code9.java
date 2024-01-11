@@ -1,4 +1,4 @@
-package FullStackJava;
+package FullStack;
 
 public class Code9 {
     public static void main(String[] args) {

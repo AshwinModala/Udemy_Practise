@@ -1,6 +1,6 @@
-package FullStack;
 
-public class Code4 {
+
+public class Code11 {
     public static void main(String[] args) {
         int x = 2;
 
@@ -22,5 +22,5 @@ public class Code4 {
 
         }
     }
-    
 }
+// output:Fly
