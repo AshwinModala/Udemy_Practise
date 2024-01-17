@@ -1,4 +1,4 @@
-package com.kundan.questionservice.model;
+package com.Ashwin.questionservice.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

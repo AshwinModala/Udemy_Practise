@@ -1,12 +1,10 @@
-package com.kundan.questionservice.Dao;
+package com.Ashwin.questionservice.Dao;
+
+import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
-
-import com.kundan.questionservice.model.Question;
-
-import java.util.List;
 
 @Repository
 public interface QuestionDao extends JpaRepository<Question, Integer> {
