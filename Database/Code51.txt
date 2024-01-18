@@ -1,0 +1,10 @@
+SELECT Customercity, 
+       CustomerName, 
+       ROW_NUMBER() OVER(PARTITION BY Customercity
+       ORDER BY OrderAmount DESC) AS "Row Number", 
+       OrderAmount, 
+       COUNT(OrderID) OVER(PARTITION BY Customercity) AS CountOfOrders, 
+       AVG(Orderamount) OVER(PARTITION BY Customercity) AS AvgOrderAmount, 
+       MIN(OrderAmount) OVER(PARTITION BY Customercity) AS MinOrderAmount, 
+       SUM(Orderamount) OVER(PARTITION BY Customercity) TotalOrderAmount
+FROM [dbo].[Orders];
