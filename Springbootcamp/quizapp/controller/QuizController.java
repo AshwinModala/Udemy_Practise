@@ -1,4 +1,4 @@
-package com.kundan.quizapp.controller;
+package com.Ashwin.quizapp.controller;
 
 import java.util.List;
 

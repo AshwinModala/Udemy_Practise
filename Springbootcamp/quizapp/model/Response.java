@@ -1,4 +1,4 @@
-package com.kundan.quizapp.model;
+package com.Ashwin.quizapp.model;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
