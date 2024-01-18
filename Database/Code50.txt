@@ -1,0 +1,15 @@
+SQL> SET SERVEROUTPUT ON;
+
+SQL> DECLARE
+
+	-- taking input for variable a
+	a number := &amp;a;	 
+	
+	-- taking input for variable b
+	b varchar2(30) := &amp;b;	 
+
+BEGIN
+	null;
+
+END;
+/

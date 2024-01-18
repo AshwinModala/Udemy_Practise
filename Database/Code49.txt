@@ -1,0 +1,9 @@
+SQL> SET SERVEROUTPUT ON;
+SQL> DECLARE
+	var varchar2(40) := 'I love pl/sql' ;
+
+BEGIN
+	dbms_output.put_line(var);
+
+END;
+/
